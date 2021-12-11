@@ -37,6 +37,6 @@ class Blockchain {
 }
 
 let mattgcoin = new Blockchain();
-mattgcoin.addBlock(new Blockchain(1, "12/18/2020", {Sender: "Chris", Recipient: "Mike", qty: 145.6879}));
-mattgcoin.addBlock(new Blockchain(2, "12/19/2020", {Sender: "Lake", Recipient: "Iris", qty: 9384.23}));
+mattgcoin.addBlock(new Block(1, "12/18/2020", {Sender: "Chris", Recipient: "Mike", qty: 145.6879}));
+mattgcoin.addBlock(new Block(2, "12/19/2020", {Sender: "Lake", Recipient: "Iris", qty: 9384.23}));
 console.log(JSON.stringify(mattgcoin, null, 4));
